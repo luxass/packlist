@@ -10,6 +10,14 @@ Retrieve a list of files to include in a npm package
 
 ## Usage
 
+```ts
+import { packlist } from "packlist";
+
+packlist({
+  cwd: "./path/to/package",
+});
+```
+
 ## 📄 License
 
 Published under [MIT License](./LICENSE).
