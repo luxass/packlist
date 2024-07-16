@@ -7,6 +7,7 @@ Retrieve a list of files to include in a npm package
 
 > [!NOTE]
 > This is a complete rewrite of the original `npm-packlist` package with more power.
+> You can view the full list of changes that differentiate this package from the original [here](#changes-from-npm-packlist).
 
 ## Usage
 
@@ -17,6 +18,10 @@ packlist({
   cwd: "./path/to/package",
 });
 ```
+
+## Changes from `npm-packlist`
+
+Some of the changes that differentiate this package from the original `npm-packlist` package are:
 
 ## 📄 License
 
